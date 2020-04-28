@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.boxShadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.boxShadow2 {
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.App {
+  width: 88%;
+  margin: 10px auto;
+}
+
+.marginTop-50 {
+  margin-top: 50px;
+}
+
+.marginTop-80 {
+  margin-top: 80px;
+}
+
+.marginTop-20 {
+  margin-top: 20px;
+}
+.marginTop-10 {
+  margin-top: 10px;
+}
+
+.margin-50 {
+  margin: 50px;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.margin-20 {
+  margin: 20px;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+.padding-15 {
+  padding: 15px;
+}
+
+.padding-20 {
+  padding: 20px;
+}
+
+.text-700 {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.text-500 {
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn_nav {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.btn_nav:hover {
+  background-color: #e7e7e7;
+}
+
+.sidebar-divider {
+  top: 10px;
+  position: relative;
+  border-top: 0.5px solid rgb(197, 194, 194);
+  width: 100%;
+}
+
+link {
+  text-decoration: none;
+}

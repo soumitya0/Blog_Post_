@@ -1,0 +1,81 @@
+.AddPostGrid {
+  display: grid;
+  width: 75%;
+  margin: 50px auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  display: grid;
+  height: 410px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+}
+
+.AddPostDetailsGrid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 13% 13% 53% 12%;
+  grid-gap: 10px;
+}
+
+.formInput {
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  font-weight: 500;
+  color: #6e707e;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d1d3e2;
+  border-radius: 0.35rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.formInput:focus,
+.formTextarea:focus {
+  color: #6e707e;
+  background-color: #fff;
+  border-color: #bac8f3;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+}
+
+.formTextarea {
+  margin-top: 10px;
+  width: 100%;
+  height: 200px;
+  font-weight: 500;
+  font-size: 17px;
+  color: #6e707e;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d1d3e2;
+  border-radius: 0.35rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  overflow: auto;
+}
+
+.Btn_Addpost_form {
+  padding: 16px 10px;
+  width: 250px;
+  background-color: #6e707e;
+  color: #fff;
+  border: 2px solid #e7e7e7;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-align: center;
+  float: right;
+}
+
+.Btn_Addpost_form:hover {
+  background-color: #c2c2c2;
+  color: #000;
+}
+
+.Btn_Addpost_form:active {
+  transform: translateY(10px);
+
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

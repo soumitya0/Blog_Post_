@@ -1,0 +1,19 @@
+.Layout_one_Grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 400px;
+  grid-template-rows: 185px repeat(3, 65px);
+  grid-gap: 7px;
+  justify-content: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.imageLayoutLayout1 {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}

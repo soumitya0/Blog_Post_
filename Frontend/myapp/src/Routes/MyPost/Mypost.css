@@ -1,0 +1,9 @@
+.layoutUserPost {
+  margin: 75px auto;
+  width: 70%;
+  height: 360px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-column-gap: 10%;
+  grid-row-gap: 7%;
+}

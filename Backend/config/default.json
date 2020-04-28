@@ -1,0 +1,5 @@
+{
+  "URL": "mongodb+srv://soumitya:soumitya@cluster0-nai9m.mongodb.net/test?retryWrites=true&w=majority",
+
+  "jwtSecret": "secret1234"
+}
